@@ -12,6 +12,7 @@ URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,7 +26,7 @@ Obs³uga sesji ACL i L2CAP.
 %patch0 -p1
 
 %build
-cp -f /usr/share/automake/config.sub .
+%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
 %{__automake}
