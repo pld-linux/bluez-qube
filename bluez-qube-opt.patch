@@ -1,0 +1,11 @@
+--- bluez-qube-0.1/configure.in.orig	Sun Mar 23 17:31:01 2003
++++ bluez-qube-0.1/configure.in	Thu Apr 17 12:32:17 2003
+@@ -11,8 +11,6 @@
+ 
+ AM_INIT_AUTOMAKE(bluez-qube, 0.1)
+ 
+-CFLAGS="-Wall -g -O2"
+-
+ AC_PREFIX_DEFAULT(/usr)
+ 
+ dnl Check for programs.
