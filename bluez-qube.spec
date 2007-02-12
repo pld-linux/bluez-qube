@@ -1,5 +1,5 @@
 Summary:	ACL and L2CAP session handlers
-Summary(pl):	Obs≥uga sesji ACL i L2CAP
+Summary(pl.UTF-8):   Obs≈Çuga sesji ACL i L2CAP
 Name:		bluez-qube
 Version:	0.1
 Release:	3
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ACL and L2CAP session handlers.
 
-%description -l pl
-Obs≥uga sesji ACL i L2CAP.
+%description -l pl.UTF-8
+Obs≈Çuga sesji ACL i L2CAP.
 
 %prep
 %setup -q
