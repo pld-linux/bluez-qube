@@ -1,5 +1,5 @@
 Summary:	ACL and L2CAP session handlers
-Summary(pl.UTF-8):   Obsługa sesji ACL i L2CAP
+Summary(pl.UTF-8):	Obsługa sesji ACL i L2CAP
 Name:		bluez-qube
 Version:	0.1
 Release:	3
